@@ -23,7 +23,7 @@ function App() {
   };
 
   return (
-    <div className="h-screen flex flex-col items-center justify-center bg-slate-400">
+    <div className="h-screen flex flex-col items-center justify-center bg-gray-900">
       <h1 className="text-4xl font-black text-blue-600">
         Counter Project v2.O
       </h1>
