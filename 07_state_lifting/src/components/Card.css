@@ -1,0 +1,8 @@
+input{
+    padding: 5px 10px;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid gray;
+}
