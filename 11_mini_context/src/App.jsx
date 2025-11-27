@@ -1,17 +1,16 @@
-import React from 'react'
+import Login from './components/Login'
+import Profile from './components/Profile'
+import UserContextProvider from './context/UserContextProvider'
 
 const App = () => {
-  return (
-    <>
-      <div className="min-h-screen bg-gray-800 flex flex-col items-center justify-center px-6">
-        <h1 className="text-5xl/12 font-bold text-gray-400 mb-12">
-          <span className="font-mono text-7xl text-yellow-400">&lt;</span>
-          Hey 👋, Developer
-          <span className="font-mono text-7xl text-green-400">/&gt;</span>
-        </h1>
-      </div>
-    </>
-  )
+    return (
+        <UserContextProvider>
+            <div className="h-screen bg-gray-800 text-gray-300 flex items-center justify-center flex-col gap-5">
+                <Login />
+                <Profile />
+            </div>
+        </UserContextProvider>
+    )
 }
 
 export default App
