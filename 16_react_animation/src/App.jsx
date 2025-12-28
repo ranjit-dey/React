@@ -1,3 +1,5 @@
+import Transition from './components/Transition'
+
 const App = () => {
     return (
         <>
@@ -9,7 +11,13 @@ const App = () => {
                     <Button damping={5}>Spring</Button>
                     <FeaturesList />
                     <DraggableCard />
+                    <DismissableAlert />
+                    <StepSwitcher />
+                    <CollapsibleList />
+                    <LiveBadge />
                 */}
+
+                <Transition />
             </div>
         </>
     )
